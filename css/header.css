@@ -1,0 +1,33 @@
+header{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background: linear-gradient(180deg,#000000 -30% ,#142e42 100%) ;
+    color: #fff;
+    position: relative;
+    z-index: 500;
+}   
+header h1{
+    font-size: 24px  ;
+}
+header div{
+    margin: 60px;
+    width: 554px;
+    height: 82px;
+    position: relative;
+}
+header div input{
+    width: 100%;
+    padding:  20px 25px 20px 55px ;
+    font-size: 17px;
+    border-radius: 117px;
+    box-shadow: 0 0 0px 14px rgba(255,255,255,0.23) ;
+    position: absolute;
+}
+header div img {
+	position: absolute;
+	width: 35px;
+	left: 16px;
+	top: 50%;
+	transform: translateY(-73%);
+    opacity: 0.7;
+}
