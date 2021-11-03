@@ -1,0 +1,27 @@
+footer{
+    width: 100%;
+    height: 368px;
+    background: linear-gradient(180deg,#132C3F 0% , #000000 130%);
+}
+footer .fcards{
+    width: 33%;
+    height: 100%;
+    padding: 20px 0 ;
+}
+.fcards h3{
+    text-align: center;
+    font-size: 17px;
+    color: #DDDDDD;
+}
+.fcards .f-sprate{
+    width: 80%;
+    height:6px;
+    border-radius: 30px;
+    background: #50AF95;
+    opacity: .77;
+    margin: 10px auto;
+}
+.fcards .items {
+    justify-content: start;
+    padding: 0 52px;
+}
