@@ -1,0 +1,38 @@
+.log-reg-wrapper{
+    width: 100%;
+    height: 100vh;
+    
+}
+.reg-mainparts{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.reg-mainparts.left-reg{
+    font-family: lalehzar;
+    color: #fff;
+    background: linear-gradient(180deg,#000000 -45% ,#142e42 100%) ;
+    position: relative;
+}
+.reg-mainparts.left-reg h1 {
+    font-family: lalehzar !important ;
+    margin: 50px 50px 0 0 ;
+}
+.reg-mainparts.left-reg h2 {
+    font-family: lalehzar !important ;
+    margin: 5px 50px 50px 0 ;
+    width: 600px;
+}
+.reg-mainparts.left-reg img{
+    width: 50%;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.reg-mainparts.right-reg .form-container{
+    width: 400px;
+    padding: 30px;
+    background: #fff;
+    border-radius : 12px ;
+}

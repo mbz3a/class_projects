@@ -23,5 +23,34 @@ footer .fcards{
 }
 .fcards .items {
     justify-content: start;
-    padding: 0 52px;
+    padding: 10px 52px;
+    margin: 20px 0;
+}
+.fcards .items img{
+    width: 30px;
+    margin-left: 20px;
+}
+.fcards .items p{
+    font-size: 15px;
+    color: #DDDDDD;
+}
+.copyrights{
+    font-size: 17px;
+    color: #eeeeee;
+}
+.fcards .socials{
+    width: 50%;
+    margin-top: 20px;
+}
+.socials img{
+    width: 30px;
+    opacity: 0.8;
+    margin-right: 20px;
+}
+.socials p{
+    font-size: 16px;
+    color: #cccccc;
+}
+.enamad{
+    width: 80px;
 }
