@@ -46,6 +46,7 @@ a{
 }
 input{
     font-family: vazir;
+    direction: ltr;
 }
 
 .t-align-c{ text-align: center;}
@@ -140,6 +141,7 @@ input{
     padding: 0 5px;
     pointer-events: none;
 }
+
 .input-container input:focus + label,
 .input-container input:valid + label{
     top: 0;
@@ -147,4 +149,74 @@ input{
     color: #0CA9C2;
     background: linear-gradient(0deg ,#f5f5f5 ,#fff);
     transform:  translateY(-50%) translateX(10px);
+}
+
+
+/* checkbox */
+
+.checkbox-container{
+    width: 300px;
+    color: #0CA9C2;
+    position: relative;
+    margin: 25px auto ;
+    justify-content: start;
+    user-select: none;
+    cursor: pointer;
+    /* background: #516133; */
+}
+.checkbox-container input[type="checkbox"]{
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.checkbox-container label{
+    margin:0  30px 0 0 ;
+    cursor: pointer;
+    font-size: 15px;
+}
+.checkbox-container label::before{
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: #F5F5F5;
+    border: 2px solid #0CA9C2;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}   
+.checkbox-container label::after {
+	content: "";
+    display: none;
+	width: 4px;
+	height: 7px;
+	border: 3px solid #0CA9C2;
+	border-radius: 2px;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	position: absolute;
+	top: 3px;
+	right: 6px;
+	transform: rotate(220deg);
+}
+.checkbox-container input[type="checkbox"]:checked + label::after{
+    display: block;
+}
+.checkbox-container input[type="checkbox"]:hover + label::before{
+    background: #e0e0e0;
+}
+
+/* BTN  */
+
+.btn-form{
+    width: 300px;
+    height: 50px;
+    background: #0CA9C2;
+    color:#fff;
+    font-family: 'vazir fd';
+    cursor: pointer;
 }

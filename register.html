@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/log-reg.css">
+    <link rel="stylesheet" href="./css/captcha.css">
 
     <title>Register</title>
 </head>
@@ -19,20 +20,54 @@
             <div class="form-container">
 
                 <div class="input-container">
-                    <input type="text" name="" id="username"  value="" autocomplete="off" required />
+                    <input type="text" name="" id="username" required value="" autocomplete="off" >
                     <label for="username">
                         نام کاربری
                     </label>
                 </div>
-                
+
                 <div class="input-container">
-                    <input type="text" name="" id="lastname"  value="" autocomplete="off" required />
-                    <label for="lastname">
-                        نام خانوادگی
+                    <input type="password" name="" id="password" required value="" autocomplete="off" >
+                    <label for="username">
+                        رمز عبور
                     </label>
                 </div>
-                
 
+                <div class="input-container">
+                    <input type="password" name="" id="confrim-pass" required value="" autocomplete="off" >
+                    <label for="confrim-pass">
+                        تایید رمز عبور
+                    </label>
+                </div>
+
+                <div class="input-container">
+                    <input type="email" name="" id="email" required value="" autocomplete="off" >
+                    <label for="email">
+                        ایمیل
+                    </label>
+                </div>
+
+                <div class="captcha-container flex-row">
+                    <input type="text" placeholder="کد امنیتی" value="" name="" required autocomplete="off" >
+                    <button id="refresh" class="refresh flex-row">
+                        <img src="./img/f.png" alt="">
+                    </button>
+                    <div class="captcha" id="captcha" > </div>
+                </div>
+
+                <div class="checkbox-container flex-row ">
+                    <input type="checkbox" name="checkruls" id="checks_ruls">
+                    <label for="checks_ruls">
+                        قوانین را مطالعه کردم.
+                    </label>
+                </div>
+                <div class="input-container">
+                    <button class="btn-form">
+                        ثبت نام
+                    </button>
+                </div>
+                    
+                
             </div>
         </div>
     
@@ -48,6 +83,6 @@
         </div>
     </div>
 
-    <script src="./Javascript/script.js"></script>
+    <script src="./javascript/captcha.js"></script>
 </body>
 </html>
