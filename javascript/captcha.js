@@ -20,3 +20,6 @@ mbz_setCaptcha();
 
 
 refresh_btn.addEventListener('click',()=>{mbz_setCaptcha();})
+
+
+

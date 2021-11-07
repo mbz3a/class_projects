@@ -219,4 +219,11 @@ input{
     color:#fff;
     font-family: 'vazir fd';
     cursor: pointer;
+    border-radius: 7px;
+}
+
+/* transparent Class */
+.bg-border-transparent{ 
+    background: transparent;
+    border-color: transparent;
 }

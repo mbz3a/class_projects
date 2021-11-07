@@ -3,17 +3,20 @@
     height: 100vh;
     
 }
+.log-mainparts,
 .reg-mainparts{
     width: 50%;
     height: 100%;
     float: right;
 }
+.log-mainparts.left-log,
 .reg-mainparts.left-reg{
     font-family: lalehzar;
     color: #fff;
     background: linear-gradient(180deg,#000000 -45% ,#142e42 100%) ;
     position: relative;
 }
+
 .reg-mainparts.left-reg h1 {
     font-family: lalehzar !important ;
     margin: 50px 50px 0 0 ;
@@ -30,6 +33,7 @@
     left: 50%;
     transform: translateX(-50%);
 }
+.log-mainparts.right-log .form-container,
 .reg-mainparts.right-reg .form-container{
     width: 400px;
     padding: 30px;
@@ -65,4 +69,73 @@
 .captcha-container button img{
     width: 90%;
     opacity: 0.7;
+}
+
+/* loging */
+.log-mainparts.left-log h1{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    font-family: lalehzar;
+}
+.log-mainparts.left-log h2{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    font-family: lalehzar;
+}
+.log-mainparts.left-log img{
+    width: 50%;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/**/
+.frm-seprate {
+    width: 300px;
+    margin: 20px auto;
+}
+.frm-seprate div:first-child,
+.frm-seprate div:nth-child(3){
+    width: 100px;
+    height: 10px;
+    background: #000;
+    opacity: 0.3;
+    border-radius: 20px;
+}
+.frm-seprate div:nth-child(2){
+    font-size: 14px;
+    margin: 0 10px;
+    opacity: 0.89;
+}
+.other-login{
+    width: 300px;
+    margin:20px auto;
+    text-align:center;
+}
+.other-login button{
+    font-size: 16px;
+    font-family: lalehzar;
+    margin: 10px;
+    padding: 7px 15px 5px 15px;
+    word-spacing: 10px;
+    color: #fff;
+    border-radius: 7px;
+}
+.other-login button.google-btn{
+    background: #DD4B39;
+}
+.other-login button.facebook-btn{
+    background: #3B5998;
+}
+.reg-link{
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.85;
+    cursor:pointer;
+}
+.reg-link a:hover{
+    text-decoration: underline;
 }
