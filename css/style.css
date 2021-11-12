@@ -1,4 +1,5 @@
 @import url("./../font/Vazir/css/style.css");
+@import url("./../font/VazirFD/Css/font-face-FD.css");
 @import url("./../font/Lalezar/style.css");
 *{
     margin: 0;
@@ -18,9 +19,9 @@ body{
     direction: rtl;
 }
 h1{
-    font-family: 'vazir FD'; 
+    font-family: 'Vazir FD Bold';
 }
-.use-digit{ font-family: 'vazir FD'; } 
+.use-digit{font-family: 'Vazir FD Bold';} 
 
 .btn{
     padding: 5px 29px;
@@ -217,7 +218,7 @@ input{
     height: 50px;
     background: #0CA9C2;
     color:#fff;
-    font-family: 'vazir fd';
+    font-family: 'Vazir FD Bold';
     cursor: pointer;
     border-radius: 7px;
 }
