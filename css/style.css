@@ -117,7 +117,7 @@ input{
     border-radius: 7px;
     background: #F5F5F5 ;
     color: #0CA9C2;
-    class_projects
+    font-family: 'Vazir FD Bold';
     position: relative;
     margin: 25px auto ;
 }
@@ -130,6 +130,7 @@ input{
     background: #F5F5F5 ;
     top: 0;
     left: 0;
+    font-family: 'Vazir FD Bold';
 }
 .input-container label{
     position: absolute;
