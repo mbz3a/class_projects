@@ -119,6 +119,7 @@ input{
     color: #0CA9C2;
     font-family: 'Vazir FD Bold';
     margin: 25px auto ;
+    position: relative;
 }
 .input-container input{
     width: 100%;
